@@ -17,4 +17,12 @@ nani.forEach((nano, index) => {
     }
 });
 
-console.log(naniFiltrati);
+
+
+console.log(
+    `Il primo indice inserito è: ${index1};
+     Il secondo indice inserito è: ${index2};
+     L'array filtrato fra i due indexes è: ${naniFiltrati};
+    `
+    ); 
+
