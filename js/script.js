@@ -42,7 +42,7 @@ function filtraPerIndici(array, num1, num2){
 
     });
     //ho trovato il mio arrayFiltrato. Lo visualizzo:
-    document.getElementById("print").innerHTML += arrayFiltrato;
+    document.getElementById("print").innerHTML += "Il/i tuo/i nano/i è/sono: " + arrayFiltrato;
 }
 
 filtraPerIndici(nani,index1,index2);
